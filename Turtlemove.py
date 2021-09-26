@@ -5,6 +5,7 @@
 import turtle
 
 def turtle_move(x,y):
+    "this function moved the turtle to a location provided by the caller"
     turtle.goto(x,y)
 
 
