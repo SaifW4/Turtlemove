@@ -6,8 +6,9 @@ import turtle
 
 def turtle_move(x,y):
     "this function moved the turtle to a location provided by the caller"
+    turtle.tracer(False)
     turtle.goto(x,y)
-
+    turtle.tracer(True)
 
 
 
